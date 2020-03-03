@@ -1,4 +1,4 @@
-from: dev
+from: dev2
 #spring:
 #  rabbitmq:
 #    host: rabbitmq.thunder
