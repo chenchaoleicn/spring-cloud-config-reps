@@ -1,1 +1,7 @@
 from: dev
+#spring:
+#  rabbitmq:
+#    host: rabbitmq.thunder
+#    port: 80
+#    username: springcloud
+#    password: 123456
