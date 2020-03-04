@@ -1,8 +1,7 @@
 from: dev6
 spring:
-  cloud:
-    rabbitmq:
-      host: rabbitmq.thunder
-      port: 80
-      username: springcloud
-      password: 123456
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
