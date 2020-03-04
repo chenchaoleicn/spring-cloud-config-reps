@@ -1,4 +1,4 @@
-from: dev16
+from: dev18
 spring:
   rabbitmq:
     host: localhost
