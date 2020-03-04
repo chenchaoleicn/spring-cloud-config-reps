@@ -21,4 +21,4 @@ management:
     bus-refresh:
       show-details: always
 
-from: dev2
+from: dev
