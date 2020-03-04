@@ -1,4 +1,4 @@
-from: dev2
+from: dev4
 spring:
   cloud:
     rabbitmq:
