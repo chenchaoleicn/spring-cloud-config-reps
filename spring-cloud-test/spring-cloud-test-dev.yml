@@ -1,7 +1,24 @@
-from: dev18
 spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: guest
-    password: guest
+    username: springcloud
+    password: 123456
+
+management:
+  #加载所有的端点(默认只加载了info、health)
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    info:
+      show-details: always
+    health:
+      show-details: always
+    refresh:
+      show-details: always
+    bus-refresh:
+      show-details: always
+
+from: dev
